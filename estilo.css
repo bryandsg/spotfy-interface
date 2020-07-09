@@ -94,6 +94,18 @@ nav.transparent {
 }
 /* /Buttons */
 
+/* section services */
+#services {
+    background: #ffffff;
+    padding: 20px 0;
+
+}
+.albuns {
+    padding: 10px 0 10px 0;
+}
+/* /section services */
+
+
 /* ======= Tipography ======= */
 h1 {
     font-size: 100px;
@@ -101,3 +113,21 @@ h1 {
     letter-spacing: -0.05em;
     margin-bottom: 50px;
 }
+h2 {
+ font-size: 50px;
+ font-weight: 700;
+ letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+   }
+#services h2, #services h3 {
+    color: #7c25f8 ;
+}
+#services p {
+    color: #000000;
+    font-size: 16px;
+}   
