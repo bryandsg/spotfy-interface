@@ -1,0 +1,39 @@
+/* 
+* @author Bryan dos Santos
+* @version 0.1
+ */
+
+/* ======= Layout ======= */
+
+.img-logo {
+    height: 40px;
+    width: 132px;
+    background: url('./imagens/spotify.svg') no-repeat;
+    display: block;
+    background-size: contain;
+    color: transparent;/* make the text invisible */
+}
+
+nav.transparent {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding:  5px 0 0 0;
+}
+.divider {
+    width: 1px;
+    height: 16px;
+    background: #ffffff;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
+}
+/* ======= Tipography ======= */
