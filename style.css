@@ -15,6 +15,8 @@ body {
                 url('imagens/ruido.png'),
                 linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
+
+    overflow-x: hidden;
 }
 /* /body configs */
 
@@ -100,9 +102,28 @@ nav.transparent {
     padding: 20px 0;
 
 }
+
 .albuns {
     padding: 10px 0 10px 0;
 }
+/* /section services */
+
+/* section services */
+
+#resources {
+    padding: 20px 0;
+    color: #ffffff;
+
+}
+
+.screenshots {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding: 0 0 0 95px ;
+
+}
+
 /* /section services */
 
 
@@ -127,7 +148,14 @@ h3 {
 #services h2, #services h3 {
     color: #7c25f8 ;
 }
+#resources h3 {
+    color: #9bf0e1 ;
+}
 #services p {
     color: #000000;
     font-size: 16px;
 }   
+
+#resources p {
+    font-size: 16px;
+}  
