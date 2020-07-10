@@ -1,0 +1,221 @@
+/* 
+* @author Bryan dos Santos
+* @version 0.1
+ */
+
+/* ======= Layout ======= */
+
+/* body configs */
+html, body, .cover {
+    height: 100%;
+    overflow: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('imagens/capa.png'),
+                url('imagens/ruido.png'),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+
+    overflow-x: hidden;
+}
+/* /body configs */
+
+/* NavBar */
+.img-logo {
+    height: 40px;
+    width: 132px;
+    background: url('./imagens/spotify.svg') no-repeat;
+    display: block;
+    background-size: contain;
+    color: transparent;/* make the text invisible */
+}
+
+nav.transparent {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding:  5px 0 0 0;
+}
+.divider {
+    width: 1px;
+    height: 16px;
+    background: #ffffff;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+/* /NavBar */
+
+/* background cover  */
+.cover {
+    display: table;
+    width: 100%;
+    
+}
+.cover-text {
+    text-align: center;
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* /background cover */
+
+/* Buttons */
+.btn-custom {
+    color: #ffffff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    
+}
+.bg-purple {
+    background: #7c25f8;
+}
+.bg-purple:hover {
+    background: #6207e3;
+    color: #ffffff;
+}
+.bg-transparent {
+    border: 2px solid #ffffff;
+}
+.bg-transparent:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+/* /Buttons */
+
+/* section services */
+#services {
+    background: #ffffff;
+    padding: 20px 0;
+
+}
+
+.albuns {
+    padding: 10px 0 10px 0;
+}
+/* /section services */
+
+/* section services */
+
+#resources {
+    padding: 20px 0;
+    color: #ffffff;
+
+}
+
+.screenshots {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding: 0 0 0 95px ;
+
+}
+
+/* /section services */
+
+/* Footer */
+
+footer {
+    background: #000000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+.socialmedia-item {
+    float: right;
+}
+
+/* /Footer */
+
+
+/* ======= Tipography ======= */
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+h2 {
+ font-size: 50px;
+ font-weight: 700;
+ letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+   }
+#services h2, #services h3 {
+    color: #7c25f8 ;
+}
+#resources h3 {
+    color: #9bf0e1 ;
+}
+#services p {
+    color: #000000;
+    font-size: 16px;
+}   
+
+#resources p {
+    font-size: 16px;
+} 
+
+#footer h4 {
+    color: #919496;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:767px) {
+    h1{
+        font-size: 50px;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+    .albuns .img-responsive {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        font-size: 70px;
+    }
+    .albuns {
+        padding: 0 0 0 0;
+        
+        
+    }
+    .albuns .img-responsive {
+        margin: 10px auto;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    h1{
+        font-size: 80px;
+    }
+    .screenshots {
+        padding: 0 0 0 135px;
+    }
+    
+}
+@media screen and (min-width:1200) {
+    h1{
+        font-size: 100px;
+    }
+}
