@@ -46,11 +46,12 @@ nav.transparent {
     margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
     color: #ffffff;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
     color: #9bf0e1;
+    background: none;
 }
 /* /NavBar */
 
@@ -126,6 +127,19 @@ nav.transparent {
 
 /* /section services */
 
+/* Footer */
+
+footer {
+    background: #000000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+.socialmedia-item {
+    float: right;
+}
+
+/* /Footer */
+
 
 /* ======= Tipography ======= */
 h1 {
@@ -158,4 +172,10 @@ h3 {
 
 #resources p {
     font-size: 16px;
-}  
+} 
+
+#footer h4 {
+    color: #919496;
+    font-size: 14px;
+    text-transform: uppercase;
+}
